@@ -1,1 +1,3 @@
-$(document).ready();
+$('div').click(function() {
+	$(this).fadeOut();
+});
